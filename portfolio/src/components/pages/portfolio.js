@@ -1,8 +1,11 @@
 import React from "react";
+// import Project from "../Project/project";
 
 function Porfolio () {
     return (
-        <div>Porfolio</div>
+        <div>
+            Portfolio
+        </div>
     );
 }
 
