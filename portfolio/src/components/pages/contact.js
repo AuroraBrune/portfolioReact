@@ -1,49 +1,48 @@
 import React from "react";
+import "./style.css"
 
-function Contact() {
-    return (
-        <div>
-            
-  <div class="m-4 row"></div>
- 
-  <div class="m-4 row">
-    <div class="col-lg-4"></div>
-    <div class="col-lg-4 ml-5 mt-5">
-      <div class="jumbotron mycustom-jumbotron">
-        <div class="container">
-          <div class="contact-info">
-            <header>
-              <h1 class="text-center text-primary">Aurora Brune</h1>
-            </header>
-            <ul>
-              <li><strong>Email:</strong>
-                <a href="mailto:akbrune@hotmail.com" target="blank">akbrune@hotmail.com</a>
-              </li>
-              <li class="phone"><strong>Phone: </strong>785 550-4958</li>
-              <li><strong>GitHub:</strong>
-                <a href="https://github.com/AuroraBrune" target="blank">AuroraBrune</a>
-              </li>
-              <li><strong>GitHub Portfolio:</strong>
-                <a href="https://github.com/AuroraBrune/responsive_portfolio_homework" target="blank">Here</a>
-              </li>
-              <li><strong>Linkedin:</strong>
-                <a href="http://www.linkedin.com/in/aurorabrune" target="blank">Here</a>
-              </li>
-              <li><strong>Resume:</strong>
-                <a href="https://drive.google.com/file/d/13AK0VGx94zt2xBuelSDS28Qq4LDjsx1t/view?usp=sharing"
-                  target="blank">Here</a>
-              </li>
-              <p>Reach out to me by email.</p>
-            </ul>
+const Contact = () => {
+  return (
+
+    <div className="contact"> {/*Div to select className to add background picture with css */}
+
+      <div className="m-4 row">
+        <div className="col-lg-4"></div>
+        <div className="col-lg-4 ml-5 mt-5">
+          <div className="jumbotron mycustom-jumbotron">
+            <div className="container">
+              <div className="contact-info">
+                <header>
+                  <h1 className="text-center text-primary">Aurora Brune</h1>
+                </header>
+                <ul>
+                  <li><strong>Email:</strong>
+                    <a href="mailto:akbrune@hotmail.com" target="blank">akbrune@hotmail.com</a>
+                  </li>
+                  <li className="phone"><strong>Phone: </strong>785 550-4958</li>
+                  <li><strong>GitHub:</strong>
+                    <a href="https://github.com/AuroraBrune" target="blank">AuroraBrune</a>
+                  </li>
+                  <li><strong>GitHub Portfolio:</strong>
+                    <a href="https://github.com/AuroraBrune/responsive_portfolio_homework" target="blank">Here</a>
+                  </li>
+                  <li><strong>Linkedin:</strong>
+                    <a href="http://www.linkedin.com/in/aurorabrune" target="blank">Here</a>
+                  </li>
+                  <li><strong>Resume:</strong>
+                    <a href="https://drive.google.com/file/d/13AK0VGx94zt2xBuelSDS28Qq4LDjsx1t/view?usp=sharing"
+                      target="blank">Here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
+        <div className="col-lg-4"></div>
       </div>
     </div>
-    <div class="col-lg-4"></div>
-  </div>
-        </div>
 
-    );
+  );
 }
 
 export default Contact;
