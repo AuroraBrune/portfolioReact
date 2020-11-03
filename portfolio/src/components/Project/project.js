@@ -1,29 +1,33 @@
 import React from "react";
-import Col from "col";
+import data from "../../assets/proj-data.json";
 
-import Img3 from "../../assets/images/browserviewweek17act26.jpg";
+const Project = () => {
 
+    const imagesarray = [
+        "/assets/images/responsiveWeatherDashboard.png",
+        "/assets/images/cocktail-coteriePartyInvite.jpg",
+        "/assets/images/projectscreen.png",
+        "/assets/images/dayPlannerLocalStorage.png",
+        "/assets/images/burgersDevoured.jpg",
+        "/assets/images/codequizScreen.png"
+    ] 
+    const ProjData = data.map(item =>
+        <div className="col-lg-3">
+            <img className="img-fluid rounded float-left" src={imagesarray[item.imgsrc]}
+                alttext={item.alttext} />
+            <p desc={item.desc}></p>
+            <p className="projlinks"><a href={item.url}>{item.title}</a></p>
+        </div>
 
-function Project() {
-    return (
-        <div></div>
-        // <Col size="md-4 sm-12">
-        //     <div className="button-container">
-        //         <img
-        //             className="img-fluid portfolio-pic"
-        //             src={props.imgPath}
-        //             alt={props.name}
-        //         />
-        //         <button
-        //             type="button"
-        //             className="btn btn-primary btn-lg btn-block deployedBtn"
-        //             onClick={() => window.open(props.linkDeployed)}
-        //         >
-        //             {props.name} (Deployed)
-        //          </button>
-        //     </div>
-        // </Col>
     );
+
+        return (
+            <div>
+                { ProjData }
+            </div>
+
+        )
+   
 }
 
 export default Project;
