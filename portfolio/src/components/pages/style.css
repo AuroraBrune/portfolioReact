@@ -1,4 +1,6 @@
+
 /* Sky image added to the background of contact page. My photo taken at the Whiteman AFB airshow July, 2019.  */
+
 .contact {
     background-image: url("../../assets/images/aircraft.jpg");
     background-size: cover;  
@@ -30,3 +32,5 @@ img  {
 .projlinks {
     text-align: center;
 }
+
+
