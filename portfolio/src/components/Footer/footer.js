@@ -4,7 +4,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="footer">
-      <span>KU Coding Aurora Brune 2020</span>
+      <span>KU Coding Bootcamp Aurora Brune 2020</span>
     </footer>
   );
 }
