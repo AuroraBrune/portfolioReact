@@ -2,6 +2,7 @@ import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/pages/main";
 import { Link } from "react-router-dom";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
@@ -21,10 +22,8 @@ function App() {
             <Link to="/contact">Contact</Link>
           </Navigation>
         </Drawer>
-        <Content>
-          <div className="page-content" />
-          <Main />
-        </Content>
+            <Main />
+         <Footer />
       </Layout>
     </div>
   );
