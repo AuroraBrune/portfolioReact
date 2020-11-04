@@ -20,7 +20,7 @@ const Project = () => {
         <div className="col-lg-3">
             <img className="img-fluid rounded float-left" src={imagesarray[item.imgsrc]}
                 alttext={item.alttext} />
-            <p desc={item.desc}></p>
+            <p>{item.desc}</p>
             <p className="projlinks"><a href={item.url}>{item.title}</a></p>
         </div>
 
