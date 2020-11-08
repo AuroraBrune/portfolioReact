@@ -2,28 +2,28 @@
     {
         "imgsrc": 0,
         "alttext": "Weather Dashboard",
-        "desc": "The Weather Dashboard app allows users can search for the current and five day forcast for any US city. This app features dynamically updated HTML and CSS powered by jQuery, and will save the searched citys in local storage.",
+        "desc": "The Weather Dashboard app allows users to search for the current and five day forcast for any US city. This app features dynamically updated HTML and CSS powered by jQuery, and will save the searched cities in local storage.",
         "url": "https://aurorabrune.github.io/weather-dashboard/",
         "title": "Weather Dashboard"
     },
     {
         "imgsrc": 1,
         "alttext": "Cocktail Coterie",
-        "desc": "This Cocktail_Coterie was the second group project. It's the first full stack project that includes front end, middleware and back end coding. NodeJS, MySQL, Passport, Bcrypt are among the languages and packages on this project. The app is deployed to Heroku.  Cocktail Coterie allows the user to search a database to load cocktails and save favorite drinks. The user can invite friends to a virtual online cocktail party through their own Zoom link, as they share a favorite beverage recipe.</p>",
+        "desc": "This Cocktail_Coterie was the second group project. It's the first full stack project that includes front end, middleware and back end coding. NodeJS, MySQL, Passport, Bcrypt are among the languages and packages on this project. The app is deployed to Heroku.  Cocktail Coterie allows the user to search a database to load cocktails and save favorite drinks. The user can invite friends to a virtual online cocktail party through their own Zoom link, as they share a favorite beverage recipe.",
         "url": "https://cocktail-coterie.herokuapp.com/",
         "title": "Cocktail Coterie"
     },
     {
         "imgsrc": 2,
         "alttext": "NASA SpaceX",
-        "desc": "The NASA SpaceX project allows users to search the NASA and SpaceX databases and download information about future, current and past space missions. You'll get interesting facts and pictures of missions.</p>",
+        "desc": "The NASA SpaceX project allows users to search the NASA and SpaceX databases and download information about future, current and past space missions. The app features interesting facts, and pictures of missions.",
         "url": "https://reidbuckingham48.github.io/spacex-nasa-flight-data/",
         "title": "NASA SpaceX"
     },
     {
         "imgsrc": 3,
         "alttext": "Day Planner",
-        "desc": "This Day Planner helps users keep track of their busy days. The user can put in their scheduled events for the day, and as the day progresses, the colors will change on the line for a great visual aid to finding the current event.",
+        "desc": "This Day Planner helps users keep track of their busy days. The user can schedule their day, and as the day progresses, the colors will change on the line for a great visual aid to finding the current event.",
         "url": "https://aurorabrune.github.io/day_plannerHw/",
         "title": "Day Planner"
     },
@@ -37,7 +37,7 @@
     {
         "imgsrc": 5,
         "alttext": "Code Quiz",
-        "desc": "As a student in KU Coding Bootcamp I found this an interesting to create a quiz about Javascript. As the user opens up the webpage, they are presented with a timed quiz to see how well they've learned Javascript. The score is saved in local storage. Time is taken off the game clock for any incorrect answers.",
+        "desc": "As a student in KU Coding Bootcamp I found this interesting creating a quiz about Javascript. As the user opens up the webpage, they are presented with a timed quiz to see how well they've learned Javascript. The score is saved in local storage. Time is deducted from the game clock for any incorrect answers.",
         "url": "https://aurorabrune.github.io/code_quiz",
         "title": "Code Quiz"
     }

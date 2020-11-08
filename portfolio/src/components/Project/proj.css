@@ -1,31 +1,16 @@
 body{
     background: radial-gradient(blue, light blue, #e5e5e5);
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
-.project{
-    width: 20rem;
-
+.row {
+    padding-top:50px;
+    padding-bottom: 50px;
 }
 
-.project:hover{
-    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
-}
-
-.project-body{
-    padding: 3rem 0 !important;
-}
-
-.project-text{
-    font-size: .9rem;
-    padding: 0.4rem 1.9rem;
-}
-
-.container-fluid .row{
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-}
-
-.overflow{
+/* .overflow{
     overflow:hidden;
 }
 
@@ -35,4 +20,4 @@ body{
 }
 .project-img-top:hover{
     transform: scale(1.8);
-}
+} */

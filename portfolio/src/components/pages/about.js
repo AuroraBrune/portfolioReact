@@ -7,7 +7,7 @@ const About = () => {
         <div>
             <div className="about-container">
                 <div className="row">
-             
+
                     <div className="col-lg-2">
                         I'm Aurora Brune a Full-Stack Web Developer. I recently graduated from the
                         University of Kansas Coding Bootcamp. I grew up as a Military dependent in a large family. My father served in

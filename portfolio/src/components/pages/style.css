@@ -15,7 +15,7 @@
 /* Sizing the jumbotron to the fit in the aircraft loop.  */
 .mycustom-jumbotron {
     width: 20rem;
-    height: 25rem;
+    height: 29rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -38,5 +38,3 @@ img  {
 .projlinks {
     text-align: center;
 }
-
-
