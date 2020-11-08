@@ -10,15 +10,15 @@ function App() {
   return (
     <div className="demo-big-content">
       <Layout>
-        <Header title="Title" scroll>
+        <Header title="React Portfolio" scroll>
           <Navigation>
             <Link to="/">About</Link>
             <Link to="/portfolio">Porfolio</Link>
             <Link to="/contact">Contact</Link>
           </Navigation>
         </Header>
-        <Drawer title="Title">
-          <Navigation>
+        <Drawer className="drawer" title="Select a Page">
+          <Navigation className="drawer">
             <Link to="/">About</Link>
             <Link to="/portfolio">Porfolio</Link>
             <Link to="/contact">Contact</Link>
