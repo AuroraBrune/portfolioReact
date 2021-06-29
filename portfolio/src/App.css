@@ -7,8 +7,6 @@
   pointer-events: none;
 }
 
-
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,8 +22,8 @@
   color: #61dafb;
 }
 
-@media only screen and (max-width: 600px) {  
-  .drawer { 
-      display: none; 
-  } 
- } 
+@media screen and (min-width: 1025px) {
+.mdl-layout__drawer-button {
+    line-height: 54px;
+    display: none !important;
+} }
