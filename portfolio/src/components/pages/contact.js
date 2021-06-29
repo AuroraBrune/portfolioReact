@@ -19,7 +19,6 @@ const Contact = () => {
                   <li><strong>Email:</strong>
                     <a href="mailto:akbrune@hotmail.com" target="blank">akbrune@hotmail.com</a>
                   </li>
-                  <li className="phone"><strong>Phone: </strong>785 550-4958</li>
                   <li><strong>GitHub:</strong>
                     <a href="https://github.com/AuroraBrune" target="blank">AuroraBrune</a>
                   </li>
@@ -28,10 +27,6 @@ const Contact = () => {
                   </li>
                   <li><strong>Linkedin:</strong>
                     <a href="http://www.linkedin.com/in/aurorabrune" target="blank">Here</a>
-                  </li>
-                  <li><strong>Resume:</strong>
-                    <a href="https://drive.google.com/file/d/13AK0VGx94zt2xBuelSDS28Qq4LDjsx1t/view?usp=sharing"
-                      target="blank">Here</a>
                   </li>
                 </ul>
               </div>

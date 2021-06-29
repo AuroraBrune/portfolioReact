@@ -21,8 +21,8 @@ const Project = () => {
         <div className="row">
             <div className="col-lg-6">
                 <img className="img-fluid rounded" src={imagesarray[item.imgsrc]}
-                    alttext={item.alttext} />
-                <p className="projlinks"><a href={item.url}target="_blank" rel="noreferrer" >{item.title}</a></p>
+                    alt={ item.alttext } />
+                <p className="projlinks"><a href={item.url}target="_blank" rel="noreferrer" >{ item.title }</a></p>
                 <p>{item.desc}</p>
             </div>
         </div>
@@ -34,7 +34,6 @@ const Project = () => {
         </div>
 
     )
-
 }
 
 export default Project;
