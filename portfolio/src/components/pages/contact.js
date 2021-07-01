@@ -15,15 +15,12 @@ const Contact = () => {
                 <header>
                   <h1 className="text-center text-primary">Aurora Brune</h1>
                 </header>
-                <ul>
+                <ul className="contact-links">
                   <li><strong>Email:</strong>
                     <a href="mailto:akbrune@hotmail.com" target="blank">akbrune@hotmail.com</a>
                   </li>
                   <li><strong>GitHub:</strong>
                     <a href="https://github.com/AuroraBrune" target="blank">AuroraBrune</a>
-                  </li>
-                  <li><strong>GitHub Portfolio:</strong>
-                    <a href="https://github.com/AuroraBrune/responsive_portfolio_homework" target="blank">Here</a>
                   </li>
                   <li><strong>Linkedin:</strong>
                     <a href="http://www.linkedin.com/in/aurorabrune" target="blank">Here</a>

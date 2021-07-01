@@ -1,31 +1,20 @@
 import React from "react";
 import "./App.css";
-import { Layout, Header, Navigation, Drawer } from "react-mdl";
+import { Layout } from "react-mdl";
 import Main from "./components/pages/main";
-import { Link } from "react-router-dom";
 import Footer from "./components/Footer/footer";
+import Sidebar from "./components/Drawer/index";
+import Header from "./components/Header/header";
 
-function App() { 
+function App() {
 
   return (
     <div className="demo-big-content">
       <Layout>
-        <Header title="Aurora Brune" scroll>
-          <Navigation>
-            <Link to="/">About</Link>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/contact">Contact</Link>
-          </Navigation>
-        </Header>
-        <Drawer className="drawer" title="Select a Page">
-          <Navigation className="drawer">
-            <Link to="/">About</Link>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/contact">Contact</Link>
-          </Navigation>
-        </Drawer>
-            <Main />
-         <Footer />
+        <Header />
+        <Sidebar />
+        <Main />
+        <Footer />
       </Layout>
     </div>
   );

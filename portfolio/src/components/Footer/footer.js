@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>KU Coding Bootcamp Aurora Brune 2020</span>
+      <span>Aurora Brune &nbsp;&nbsp; KU Full Stack Coding Bootcamp &nbsp; 2020</span>
     </footer>
   );
 }

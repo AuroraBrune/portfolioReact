@@ -1,0 +1,7 @@
+/* sets drawer button on header to "hidden" on large screen */
+@media screen and (min-width: 1025px) {
+    .mdl-layout__drawer-button {
+        line-height: 54px;
+        display: none !important;
+    }
+    }

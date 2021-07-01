@@ -1,12 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { Header,Navigation } from "react-mdl";
+import "../pages/style.css";
 
-function Header () {
+
+function AppBar() {
     return (
-        <header className="header">
-            <div className="row text-center">
+        <div className="header">
+            {/* <div className="row text-center"> */}
+                <Header title="Aurora Brune" scroll>
+                    <Navigation>
+                        <Link to="/">About</Link>
+                        <Link to="/portfolio">Portfolio</Link>
+                        <Link to="/contact">Contact</Link>
+                    </Navigation>
+                </Header>
             </div>
-        </header>
+        /* </div> */
     )
 }
 
-export default Header;
+export default AppBar;

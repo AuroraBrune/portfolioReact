@@ -1,40 +1,56 @@
-
-/* Sky image added to the background of contact page. My photo taken at the Whiteman AFB airshow July, 2019.  */
-
+/* ABOUT page */
 .about-container {
-    margin-top: 20px;
-    margin-left: 7rem;
-    
+  margin-top: 20px;
+  margin-left: 7rem;
+  position: relative;
+  min-height: 100vh;
+}
+.about,
+.portfolio {
+  background-color: rgb(190, 194, 223);
 }
 
+/* CONTACT page */
+
+/* Sky image added to the background of contact page.
+ My photo taken at the Whiteman AFB airshow July, 2019.  */
 .contact {
-    background-image: url("../../assets/images/aircraft.jpg");
-    background-size: cover;  
-
+  background-image: url('../../assets/images/aircraft.jpg');
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
 }
-/* Sizing the jumbotron to the fit in the aircraft loop.  */
+/* Size the jumbotron to the fit in the aircraft loop. */
 .mycustom-jumbotron {
-    width: 20rem;
-    height: 29rem;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 20rem;
+  height: 29rem;
+  border-radius: 50%;
+  border: solid #3364ff;
+  display: flex;
 }
 
 /* Remove bullet point on the list items, makes clean contact data. */
-ul{
-    list-style: none;
+.jumbotron ul {
+  list-style: none;
+  padding-inline-start: 10px;
+}
+.jumbotron contact-links {
+  margin-left: 0%;
+}
+.jumbotron a {
+  color: #0056b3 !important;
 }
 
-img  {
-    border: solid #3364FF;
+/* PORTFOLIO page */
+img, .photo{    
+  border: solid #3364ff;
 }
 
-.photo {
-    border: solid #3377FF;
-} 
 /*  Center the links under the descriptions. */
 .projlinks {
-    text-align: center;
+  text-align: center;
+}
+/* override material ui setting the links color, chaging from red to blue */
+.projlinks a {
+  color: #0056b3 !important;
 }
