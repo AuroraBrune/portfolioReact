@@ -1,10 +1,10 @@
 import React from "react";
 import data from "../../assets/proj-data.json";
 import weatherDashboard from "../../assets/images/Weather-Dashboard.png";
-import cocktailCoterie from "../../assets/images/cocktail-coterieCreateInvite.jpg";
+import cocktailCoterie from "../../assets/images/cocktail-coteriePartyInvite1.jpg";
 import projectscreen from "../../assets/images/projectscreen.png";
 import dayPlanner from "../../assets/images/dayPlannerLocalStorage.png";
-import burgers from "../../assets/images/burgersDevoured.jpg";
+import burgers from "../../assets/images/burgersDevoured1.jpg";
 import codequiz from "../../assets/images/codequizScreen.png";
 import "./proj.css"
 
