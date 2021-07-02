@@ -49,6 +49,7 @@ img, .photo{
 /*  Center the links under the descriptions. */
 .projlinks {
   text-align: center;
+  width: 500px;
 }
 /* override material ui setting the links color, chaging from red to blue */
 .projlinks a {

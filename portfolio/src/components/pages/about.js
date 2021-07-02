@@ -8,7 +8,7 @@ const About = () => {
             <div className="about-container">
                 <div className="row">
 
-                    <div className="col-lg-2"> 
+                    <div className="col-lg-3 col-md-12"> 
                     I'm Aurora Brune, a Full-Stack Web Developer, with a Certificate from the
                         University of Kansas Coding Bootcamp. 
                         <p></p>
@@ -18,8 +18,8 @@ const About = () => {
                         Management skills include: Leadership, Team Building, Training, Time Management, Client Relations.
                         <p></p>
                     </div>
-                        
-                    <div className="col-lg-2">I served in the Air Force
+                    
+                    <div className="col-lg-3 col-md-12">I served in the Air Force
                         working on C-5 and C-141 aircraft avionics.
                         Maintaining and troubleshooting avionics is comparable to debugging. I have a background in managment and education. Having been a Program Director for the
                         Parks and Rec Department After School/Summer Camp Programs, while working full time as a Special Ed Paraeducator
@@ -27,7 +27,7 @@ const About = () => {
                         <p></p>
                     </div>
 
-                    <div className="col-lg-2">Looking for a career change, I enrolled in KU Full Stack Coding Bootcamp. Coding uses my
+                    <div className="col-lg-3 col-md-12">Looking for a career change, I enrolled in KU Full Stack Coding Bootcamp. Coding uses my
                         skillsets;
                         analyzing, correcting and developing existing systems. This new career
                         opporunity allows me
@@ -39,7 +39,7 @@ const About = () => {
                         science person who loves the outdoors and gardening.
                     </div>
 
-                    <div className="col-lg-2">
+                    <div className="col-lg-3 col-md-12">
                         <img src={Img2} alt="Aurora Brune" height="300px" width="225px"
                             className="photo" />
                     </div>

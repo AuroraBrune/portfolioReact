@@ -19,12 +19,14 @@ const imagesarray = [
 const Project = () => {
     const ProjData = data.map(item =>
         <div className="row">
+            <div className="col"></div>
             <div className="col-lg-6">
                 <img className="img-fluid rounded" src={imagesarray[item.imgsrc]}
                     alt={ item.alttext } />
                 <p className="projlinks"><a href={item.url}target="_blank" rel="noreferrer" >{ item.title }</a></p>
-                <p>{item.desc}</p>
+                <p className="projDescription">{item.desc}</p>
             </div>
+            <div className="col"></div>
         </div>
     );
 

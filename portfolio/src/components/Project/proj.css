@@ -15,3 +15,6 @@ body{
 .img-fluid {
     object-fit: none;
 }
+.projDescription {
+    width: 500px;
+}
