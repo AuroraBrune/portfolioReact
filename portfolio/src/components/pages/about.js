@@ -9,7 +9,7 @@ const About = () => {
                 <div className="row">
 
                     <div className="col-lg-3 col-md-12"> 
-                    I'm Aurora Brune, a Full-Stack Web Developer, with a Certificate from the
+                    I'm a Full-Stack Web Developer, with a Certificate from the
                         University of Kansas Coding Bootcamp. 
                         <p></p>
                         Technical skills include: HTML, CSS, JavaScript, jQuery, SQL, React,

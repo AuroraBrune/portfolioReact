@@ -28,6 +28,7 @@
   border: solid #3364ff;
   display: flex;
 }
+@media screen and (min-width: 970px) { .jumbotron { position: center; }}
 
 /* Remove bullet point on the list items, makes clean contact data. */
 .jumbotron ul {
@@ -41,17 +42,3 @@
   color: #0056b3 !important;
 }
 
-/* PORTFOLIO page */
-img, .photo{    
-  border: solid #3364ff;
-}
-
-/*  Center the links under the descriptions. */
-.projlinks {
-  text-align: center;
-  width: 500px;
-}
-/* override material ui setting the links color, chaging from red to blue */
-.projlinks a {
-  color: #0056b3 !important;
-}
