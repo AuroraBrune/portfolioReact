@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolioReact/static/css/main.9267b3e0.chunk.css",
+    "main.js": "/portfolioReact/static/js/main.c4c316ea.chunk.js",
+    "main.js.map": "/portfolioReact/static/js/main.c4c316ea.chunk.js.map",
+    "runtime-main.js": "/portfolioReact/static/js/runtime-main.0494831a.js",
+    "runtime-main.js.map": "/portfolioReact/static/js/runtime-main.0494831a.js.map",
+    "static/css/2.2fcc896a.chunk.css": "/portfolioReact/static/css/2.2fcc896a.chunk.css",
+    "static/js/2.151cc327.chunk.js": "/portfolioReact/static/js/2.151cc327.chunk.js",
+    "static/js/2.151cc327.chunk.js.map": "/portfolioReact/static/js/2.151cc327.chunk.js.map",
+    "static/js/3.209d9875.chunk.js": "/portfolioReact/static/js/3.209d9875.chunk.js",
+    "static/js/3.209d9875.chunk.js.map": "/portfolioReact/static/js/3.209d9875.chunk.js.map",
+    "index.html": "/portfolioReact/index.html",
+    "static/css/2.2fcc896a.chunk.css.map": "/portfolioReact/static/css/2.2fcc896a.chunk.css.map",
+    "static/css/main.9267b3e0.chunk.css.map": "/portfolioReact/static/css/main.9267b3e0.chunk.css.map",
+    "static/js/2.151cc327.chunk.js.LICENSE.txt": "/portfolioReact/static/js/2.151cc327.chunk.js.LICENSE.txt",
+    "static/media/Aurora-profile3.cc853e16.jpg": "/portfolioReact/static/media/Aurora-profile3.cc853e16.jpg",
+    "static/media/Weather-Dashboard.4322c8ce.png": "/portfolioReact/static/media/Weather-Dashboard.4322c8ce.png",
+    "static/media/style.css": "/portfolioReact/static/media/aircraft.89f34dfa.jpg",
+    "static/media/burgersDevoured1.4744850c.jpg": "/portfolioReact/static/media/burgersDevoured1.4744850c.jpg",
+    "static/media/codequizScreen.1f34f28a.png": "/portfolioReact/static/media/codequizScreen.1f34f28a.png",
+    "static/media/dayPlannerLocalStorage.81b9668e.png": "/portfolioReact/static/media/dayPlannerLocalStorage.81b9668e.png",
+    "static/media/nasaSpace.7e83e861.png": "/portfolioReact/static/media/nasaSpace.7e83e861.png",
+    "static/media/savedCocktails.77756d78.png": "/portfolioReact/static/media/savedCocktails.77756d78.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0494831a.js",
+    "static/css/2.2fcc896a.chunk.css",
+    "static/js/2.151cc327.chunk.js",
+    "static/css/main.9267b3e0.chunk.css",
+    "static/js/main.c4c316ea.chunk.js"
+  ]
+}
