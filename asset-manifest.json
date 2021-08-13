@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolioReact/static/css/main.9267b3e0.chunk.css",
-    "main.js": "/portfolioReact/static/js/main.c4c316ea.chunk.js",
-    "main.js.map": "/portfolioReact/static/js/main.c4c316ea.chunk.js.map",
-    "runtime-main.js": "/portfolioReact/static/js/runtime-main.0494831a.js",
-    "runtime-main.js.map": "/portfolioReact/static/js/runtime-main.0494831a.js.map",
+    "main.js": "/portfolioReact/static/js/main.7c67c246.chunk.js",
+    "main.js.map": "/portfolioReact/static/js/main.7c67c246.chunk.js.map",
+    "runtime-main.js": "/portfolioReact/static/js/runtime-main.a51d8130.js",
+    "runtime-main.js.map": "/portfolioReact/static/js/runtime-main.a51d8130.js.map",
     "static/css/2.2fcc896a.chunk.css": "/portfolioReact/static/css/2.2fcc896a.chunk.css",
-    "static/js/2.151cc327.chunk.js": "/portfolioReact/static/js/2.151cc327.chunk.js",
-    "static/js/2.151cc327.chunk.js.map": "/portfolioReact/static/js/2.151cc327.chunk.js.map",
-    "static/js/3.209d9875.chunk.js": "/portfolioReact/static/js/3.209d9875.chunk.js",
-    "static/js/3.209d9875.chunk.js.map": "/portfolioReact/static/js/3.209d9875.chunk.js.map",
+    "static/js/2.6f4246dc.chunk.js": "/portfolioReact/static/js/2.6f4246dc.chunk.js",
+    "static/js/2.6f4246dc.chunk.js.map": "/portfolioReact/static/js/2.6f4246dc.chunk.js.map",
+    "static/js/3.2a763c4c.chunk.js": "/portfolioReact/static/js/3.2a763c4c.chunk.js",
+    "static/js/3.2a763c4c.chunk.js.map": "/portfolioReact/static/js/3.2a763c4c.chunk.js.map",
     "index.html": "/portfolioReact/index.html",
     "static/css/2.2fcc896a.chunk.css.map": "/portfolioReact/static/css/2.2fcc896a.chunk.css.map",
     "static/css/main.9267b3e0.chunk.css.map": "/portfolioReact/static/css/main.9267b3e0.chunk.css.map",
-    "static/js/2.151cc327.chunk.js.LICENSE.txt": "/portfolioReact/static/js/2.151cc327.chunk.js.LICENSE.txt",
+    "static/js/2.6f4246dc.chunk.js.LICENSE.txt": "/portfolioReact/static/js/2.6f4246dc.chunk.js.LICENSE.txt",
     "static/media/Aurora-profile3.cc853e16.jpg": "/portfolioReact/static/media/Aurora-profile3.cc853e16.jpg",
     "static/media/Weather-Dashboard.4322c8ce.png": "/portfolioReact/static/media/Weather-Dashboard.4322c8ce.png",
     "static/media/style.css": "/portfolioReact/static/media/aircraft.89f34dfa.jpg",
@@ -24,10 +24,10 @@
     "static/media/savedCocktails.77756d78.png": "/portfolioReact/static/media/savedCocktails.77756d78.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0494831a.js",
+    "static/js/runtime-main.a51d8130.js",
     "static/css/2.2fcc896a.chunk.css",
-    "static/js/2.151cc327.chunk.js",
+    "static/js/2.6f4246dc.chunk.js",
     "static/css/main.9267b3e0.chunk.css",
-    "static/js/main.c4c316ea.chunk.js"
+    "static/js/main.7c67c246.chunk.js"
   ]
 }
